@@ -1,4 +1,4 @@
-# {{ name }}
+# Cryptotracker
 
 ## CLI Commands
 
@@ -14,6 +14,13 @@ npm run build
 
 # test the production build locally
 npm run serve
+```
+
+## Docker image also available: [Docker Image](https://hub.docker.com/r/jannnik/cryptotracker/)
+```bash
+docker pull jannnik/cryptotracker
+docker run -it jannnik/cryptotracker
+open localhost:8080
 ```
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).

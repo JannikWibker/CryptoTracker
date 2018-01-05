@@ -1,0 +1,10 @@
+.home {
+	width: 100%;
+	height: calc(100% - 56px);
+	overflow: scroll;
+}
+
+.link {
+	text-decoration: none;
+	color: unset;
+}
